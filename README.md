@@ -1,12 +1,12 @@
-# ♟️ Joc de Șah în Java
+#  Joc de Șah în Java
 
 Implementare a jocului clasic de șah, dezvoltată în Java ca proiect pentru cursul de **Programare Orientată pe Obiecte (POO)**. Proiectul pune accent pe modelarea pieselor și a tablei de joc folosind principiile fundamentale ale POO.
 
-## 📋 Descriere
+##  Descriere
 
 Aplicația permite jucarea unei partide complete de șah între doi jucători, respectând regulile oficiale de mutare ale fiecărei piese. Arhitectura este construită în jurul unei ierarhii de clase care modelează în mod natural entitățile din joc: tabla, piesele și jucătorii.
 
-## ✨ Funcționalități
+##  Funcționalități
 
 - Modelarea celor 6 tipuri de piese (pion, tură, cal, nebun, regină, rege), fiecare cu logica proprie de mutare
 - Validarea mutărilor conform regulilor șahului
@@ -15,7 +15,7 @@ Aplicația permite jucarea unei partide complete de șah între doi jucători, r
 - Reprezentarea și actualizarea tablei de joc după fiecare mutare
 - Capturarea pieselor adversarului
 
-## 🧱 Concepte POO utilizate
+##  Concepte POO utilizate
 
 Proiectul ilustrează principiile esențiale ale programării orientate pe obiecte:
 
@@ -24,12 +24,12 @@ Proiectul ilustrează principiile esențiale ale programării orientate pe obiec
 - **Polimorfism** – fiecare piesă își suprascrie metoda de validare a mutărilor (`muta` / `mutareValida`)
 - **Abstractizare** – clasa de bază pentru piese definește un contract comun, fără a impune o implementare unică
 
-## 🛠️ Tehnologii
+##  Tehnologii
 
 - **Java** (JDK 17 sau o versiune compatibilă)
 - Programare orientată pe obiecte
 
-## 🚀 Rulare
+##  Rulare
 
 Clonează repository-ul și compilează sursele:
 
@@ -42,7 +42,7 @@ java -cp bin Main
 
 > Înlocuiește `Main` cu numele clasei care conține metoda `main`, dacă diferă.
 
-## 📂 Structura proiectului
+##  Structura proiectului
 
 ```
 src/
@@ -57,13 +57,12 @@ src/
 └── Rege.java          # Logica specifică regelui
 ```
 
-## 🔮 Posibile îmbunătățiri
+##  Posibile îmbunătățiri
 
-- Mutări speciale: rocada, *en passant*, promovarea pionului
 - Interfață grafică (Swing / JavaFX)
 - Mod de joc împotriva calculatorului
 - Salvarea și încărcarea partidelor
 
-## 👤 Autor
+##  Autor
 
-Proiect realizat în cadrul cursului de Programare Orientată pe Obiecte.
+Proiect realizat de Părău Leonard-Adrian
